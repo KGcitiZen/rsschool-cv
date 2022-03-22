@@ -1,5 +1,5 @@
 # Bektur Boobekov
-`Hello World!` My name is Bektur and I am at the beginning of my journey to become a developer.
+`Hello World!` My name is Bektur and I am at the beginning of my journey to become a web developer.
 
 ## Contacts:
 * [**Gmail**](mailto:bekturboobekov@gmail.com)
@@ -40,6 +40,7 @@ https://codepen.io/qLeima/pen/BaLzraR
 ## Education and courses:
 * **Bachelor's degree in Bioengineering at Talas State University**
 * **freeCodeCamp's Responsive Web Design and JavaScript course**
+* Completed [**Hexlet's Intro to Git**](https://ru.hexlet.io/courses/intro_to_git)
 * Currently studying at **RS School's JavaScript/Front-End 2022Q1 course**
 
 ## Languages:

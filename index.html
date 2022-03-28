@@ -1,13 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="stylesheet" href="./style.css">
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CV</title>
+
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Patrick+Hand&family=Ubuntu+Mono&display=swap" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-  
+  <div class="container">
+    <header>
+      <h1>Bektur Boobekov</h1>
+      <nav role="navigation">
+        <ul>
+          <li><a href="#about-me">About me</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#code-example">Code Example</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#education-and-courses">Education and Courses</a></li>
+          <li><a href="#languages">Languages</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main role="main">
+      <section>
+        <h2 id="heading-role">Junior Front-End Developer</h2>
+        <a href="#"><img src="#" alt=""></a>
+        <a href="#"><img src="#" alt=""></a>
+        <a href="#"><img src="#" alt=""></a>
+        <a href="#"><img src="#" alt=""></a>
+      </section>
+
+      <section id="about-me">
+        <h2>About me</h2>
+        <p><span>Hello, world!</span> My name is Bektur and I am at the beginning of my journey to become a web developer.</p>
+        <p>Conscientious, ambitious and highly motivated "Bioengineering" Graduate with experience in marketing and tourism. Looking for Junior Front-End Developer role that utilizes strong interpersonal skills and opportunity to take on higher levels of responsibility. Preferably looking for a React Developer role at an non-governmental organization or company with high ethical values.</p>
+      </section>
+
+      <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Git</li>
+          <li>Figma/Avocode</li>
+          <li>Googling</li>
+        </ul>
+      </section>
+
+      <section id="code-example">
+        <h2>Code Example</h2>
+        <pre>
+          <code>
+            function  squareEveryDigit(num){
+              let result =  '';
+              num = num.toString();
+
+              for (index =  0; index &lt; num.length; index++) {
+                  result += (num[index] * num[index]);
+              }
+              return  +result;
+            }
+          </code>
+        </pre>
+      </section>
+
+      <section id="projects">
+        <h2>Projects</h2>
+        <figure>
+          <a href="#"><img src="#" alt=""></a>
+          <figcaption>#</figcaption>
+        </figure>
+        <figure>
+          <a href="#"><img src="#" alt=""></a>
+          <figcaption>#</figcaption>
+        </figure>
+      </section>
+
+      <section id="education-and-courses">
+        <h2>Education and Courses</h2>
+        <ul>
+          <li>Bachelor's degree in Bioengineering at Talas State University (2017-2021)</li>
+          <li>freeCodeCamp's Responsive Web Design and JavaScript course (2022)</li>
+          <li>Completed <a href="https://ru.hexlet.io/courses/intro_to_git">Hexlet's Intro to Git (2022)</a></li>
+          <li>Currently studying at <a href="https://rs.school/js/">RS School's JavaScript/Front-End 2022Q1</a> course</li>
+        </ul>
+      </section>
+
+      <section id="languages">
+        <h2>Languages</h2>
+        <ul>
+          <li><img src="#" alt="" class="country-flag"><span>English: B1</span></li>
+          <li><img src="#" alt="" class="country-flag"><span>Russian: C2</span></li>
+          <li><img src="#" alt="" class="country-flag"><span>Kyrgyz: native</span></li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-item">© 2022 by Bektur Boobekov</div>
+      <div class="footer-item"><a href="#">Github</a></div>
+      <div class="footer-item"><a href="#">RSSchool</a></div>
+    </footer>
+  </div>
 </body>
 </html>
